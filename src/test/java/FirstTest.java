@@ -19,6 +19,7 @@ public class FirstTest {
 	dropDown.sendKeys("Chandler, AZ, US");
 	driver.findElement(By.tagName("button"));
 //	System.out.println(findElement.getTagName());
-	driver.quit();
+	
+	//driver.quit();
 	}
 }
