@@ -9,7 +9,7 @@ public class FirstTest {
 
 @Test
 	public void myFirstTest() {
-	System.setProperty("webdriver.chrome.driver","/Users/ajay.kumar/Downloads/chromedriver");
+	System.setProperty("webdriver.chrome.driver","/Users/ajay.kumar/Documents/SeleniumDependencies/chromedriver");
 	
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.choicehotels.com/");
